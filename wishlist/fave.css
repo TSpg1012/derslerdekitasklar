@@ -1,0 +1,16 @@
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.fa-trash {
+  font-size: 1.2em;
+  color: brown;
+}
+
+button {
+  border: 1px solid brown;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+}
