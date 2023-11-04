@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+
+header .subdiv {
+  display: flex;
+}
+
+header .subdiv .info {
+  display: flex;
+  padding: 20px;
+}
+
+header .subdiv .info .email {
+  padding-left: 180px;
+}
+
+header .subdiv .info i {
+  background-color: #1089FF;
+  padding: 12px;
+  border-radius: 50%;
+  color: white;
+}
+
+nav {
+  height: 75px;
+  background-color: #1089FF;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  top: 150px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li:nth-child(1) {
+  text-decoration: underline;
+}
+
+main {
+  background: url("./../../images/hero_1.png");
+  height: 970px;
+  position: relative;
+}
+
+main::after {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+main .exploring {
+  width: 35%;
+  position: absolute;
+  right: 25%;
+  top: 43%;
+  z-index: 1;
+  text-align: right;
+}
+
+main .exploring h1, main .exploring p {
+  color: white;
+  padding: 10px 0;
+}
+
+main .exploring button {
+  background-color: #1089FF;
+  color: white;
+  padding: 12px 48px;
+  border: none;
+  border-radius: 6px;
+}
+
+section {
+  display: flex;
+}
+
+section .left {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+
+section .left img {
+  width: 100%;
+  object-fit: cover;
+}
+
+section .right {
+  margin-left: 30px;
+}
+
+section .right div {
+  padding: 20px 0;
+  width: 70px;
+  border-bottom: solid 2px #1089FF;
+}
+
+section .right p:nth-child(1) {
+  padding-top: 20px;
+  color: blue;
+  font-family: "Dancing Script", sans-serif;
+}
+
+section .right h1 {
+  padding-top: 20px;
+}
+
+section .right .second-paragraph {
+  padding: 20px;
+}
+
+section .right button {
+  background-color: #1089FF;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.second-sect {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-sect .cards {
+  width: 23%;
+}
+
+.second-sect i {
+  color: #1089FF;
+  font-size: 2em;
+}
+
+.third-sect ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  color: white;
+  background-color: #1089FF;
+  height: 200px;
+}
+
+.third-sect ul li {
+  font-size: 2em;
+}
+
+.fourth-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourth-sect p {
+  font-family: "Dancing Script", sans-serif;
+  color: #1089FF;
+}
+
+.fourth-sect .container {
+  width: 60%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.fourth-sect .container .cards {
+  position: relative;
+  border: solid 2px black;
+  width: 30%;
+  margin-bottom: 100px;
+}
+
+.fourth-sect .container .cards .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fourth-sect .container .cards .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.fourth-sect .container .cards .maps {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.fourth-sect .container .cards .maps i {
+  color: #1089FF;
+  font-size: 2em;
+}
+
+.fourth-sect .container .cards .maps h3 {
+  padding-top: 5px;
+}
+
+.fourth-sect .container .cards .date {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.fourth-sect .container .cards .date i {
+  color: #A5A6A5;
+  font-size: 2em;
+}
+
+.fourth-sect .container .cards .date p {
+  font-family: none;
+  padding-top: 5px;
+  color: #A5A6A5;
+}
+
+.fourth-sect .container .cards .money {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.fourth-sect .container .cards .money i {
+  color: #A5A6A5;
+  font-size: 2em;
+}
+
+.fourth-sect .container .cards .money p {
+  font-family: none;
+  color: white;
+  background-color: #1089FF;
+  padding: 6px 12px;
+  border-radius: 6px;
+  position: absolute;
+  right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
