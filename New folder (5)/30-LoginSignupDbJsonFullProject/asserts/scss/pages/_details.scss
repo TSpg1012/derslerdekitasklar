@@ -1,0 +1,39 @@
+.card-detail {
+  .cart {
+    margin: 100px auto;
+    width: 500px;
+    border: solid 1px rgba(210, 209, 209, 0.858);
+    .img-wrapper {
+      width: 500px;
+      height: 300px;
+      img {
+        width: 500px;
+        height: 300px;
+      }
+    }
+    .bottom-part {
+      padding: 10px;
+      .info {
+        padding: 10px 0;
+        p {
+          padding: 3px;
+        }
+      }
+      .buttons {
+        a {
+          background-color: #3aaadf;
+          padding: 8px 15px;
+          border-radius: 12px;
+          color: white;
+          border: solid 2px white;
+          transition: all 0.3s ease;
+        }
+        a:hover {
+          background-color: white;
+          border: 2px solid #3aaadf;
+          color: #3aaadf;
+        }
+      }
+    }
+  }
+}
