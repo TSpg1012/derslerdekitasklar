@@ -1,0 +1,126 @@
+{
+  "singers": [
+    {
+      "id": 1,
+      "image": "https://cdnph.upi.com/collection/fp/upi/13662/88b34862834a02024bf56a2d85fa4a99/The-Weeknd-turns-33-a-look-back_1_1.jpg",
+      "name": "The Weeknd",
+      "country": "Canadian",
+      "genre": "R&B"
+    },
+    {
+      "id": 2,
+      "image": "https://upload.wikimedia.org/wikipedia/az/b/b3/The_Neighbourhood.jpg",
+      "name": "The Neighbourhood",
+      "country": "American band",
+      "genre": "Indie"
+    },
+    {
+      "id": 3,
+      "image": "https://i.scdn.co/image/ab67616d00001e02344cb1f0ad668b1d372b5333",
+      "name": "Duman",
+      "country": "Turkish Band",
+      "genre": "Grunge rock"
+    },
+    {
+      "id": 4,
+      "image": "https://beat.com.au/wp-content/uploads/2018/07/tames.jpg",
+      "name": "Tame Impala",
+      "country": "Australian Band",
+      "genre": "Psychedelic rock"
+    },
+    {
+      "id": 5,
+      "image": "https://i.iheart.com/v3/catalog/artist/58370?ops=fit(720%2C720)",
+      "name": "MCR(My Chemical Romance)",
+      "country": "American Band",
+      "genre": "Alternative rock,emo"
+    },
+    {
+      "id": 6,
+      "image": "https://yt3.googleusercontent.com/ytc/AOPolaQ-DN5xYILXimLrjgPzlHnGrLKJiPLtgYVG_5DACQ=s900-c-k-c0x00ffffff-no-rj",
+      "name": "Saybu Swag",
+      "country": "Azerbaijanian Rapper",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": 7,
+      "image": "https://i.scdn.co/image/ab6761610000e5eb7da39dea0a72f581535fb11f",
+      "name": "The Arctic Monkeys",
+      "country": "English Band",
+      "genre": "Indie"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "20th Century Boys",
+      "price": "220",
+      "stock": "100",
+      "count": "1",
+      "imageurl": "https://m.media-amazon.com/images/I/71Dj6z5rrzL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Six of Crows",
+      "price": "120",
+      "stock": "50",
+      "count": "1",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/en/1/10/Six_of_Crows_by_Leigh_Bardugo_book_cover.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "price": "10",
+      "stock": "150",
+      "count": "1",
+      "imageurl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404613595i/13.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Homunculus",
+      "price": "80",
+      "stock": "200",
+      "count": "1",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFZnLiuBeIlkJb1dlBo0pIAnkWP0wvEPgnzyj79ZMChkB99ehAtFV3pQMO2XRe7U8rZY&usqp=CAU"
+    },
+    {
+      "id": "5",
+      "title": "Watchmen",
+      "price": "25",
+      "stock": "150",
+      "count": "1",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp_-Ym8JwhMWYezXVjRXNZPWFK3u1wc9fcYw&usqp=CAU"
+    },
+    {
+      "id": "6",
+      "title": "V for vendetta",
+      "price": "10",
+      "stock": "150",
+      "count": "1",
+      "imageurl": "https://m.media-amazon.com/images/I/71f7i5dHDSL._SL1000_.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@123",
+      "balance": "0"
+    },
+    {
+      "username": "Est laborum Nesciun",
+      "password": "Pa$$w0rd!",
+      "balance": "1200",
+      "email": "juhafev@mailinator.com",
+      "id": "Jz5spnd"
+    },
+    {
+      "username": "Quo nihil odit dicta",
+      "password": "Pa$$w0rd!",
+      "balance": "122",
+      "email": "punody@mailinator.com",
+      "id": "IMTHQpH"
+    }
+  ]
+}

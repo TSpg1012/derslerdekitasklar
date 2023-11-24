@@ -1,0 +1,55 @@
+nav {
+  background: linear-gradient(to right, #1e90ff, #32cd32);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  .spotify {
+    padding-left: 150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    i {
+      font-size: 60px;
+      color: #25d865;
+    }
+    h2 {
+      font-size: 2em;
+      color: #25d865;
+    }
+  }
+
+  .pages {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 150px;
+
+    a {
+      font-size: 1.2em;
+
+      span {
+        font-size: 1em;
+        padding-bottom: 5px;
+      }
+    }
+
+    a:nth-child(5) {
+      background-color: white;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    button {
+      background-color: black;
+      color: white;
+      width: 40px;
+      height: 30px;
+      border-radius: 6px;
+      border: none;
+      i {
+        font-size: 1.2em;
+      }
+    }
+  }
+}

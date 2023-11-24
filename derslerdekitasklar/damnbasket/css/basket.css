@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2d1c71;
+}
+.container {
+  width: 50%;
+  margin: 100px auto;
+  background-color: #1f144f;
+  border-radius: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  padding: 20px;
+}
+
+.basketList {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+.basketItem {
+  display: flex;
+}
+.info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info p {
+  font-size: 1.5em;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.img-wrapper {
+  width: 30%;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+.changeing {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.deletebtn {
+  position: relative;
+  width: 20%;
+}
+.deletebtn button {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.3em;
+  border: none;
+  position: absolute;
+  right: 10px;
+  background-color: red;
+}
+.changeing i {
+  font-size: 2em;
+}
+.changeing p {
+  font-size: 2em;
+}
+/* .righttotal,
+.lefttotal {
+  width: 20px;
+} */
+.total {
+  text-align: end;
+  padding-right: 20px;
+}
+.basket-total p {
+  padding: 15px 0;
+  font-size: 1.8em;
+}
+.pay {
+  position: relative;
+  left: 70%;
+  padding: 10px;
+}
+
+.clearAll {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+.Submit {
+  padding: 10px;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 10px;
+}
+.clearAll p {
+  font-size: 1.8em;
+}
+.Submit p {
+  font-size: 1.8em;
+}
+h1,
+h2,
+p,
+span,
+i {
+  color: white;
+}
