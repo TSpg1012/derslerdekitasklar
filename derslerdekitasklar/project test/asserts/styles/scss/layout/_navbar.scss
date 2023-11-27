@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav{
     height: 75px;
     background-color: $main-color;
@@ -18,4 +19,26 @@ nav{
             text-decoration: underline;
         }
     }
+=======
+nav{
+    height: 75px;
+    background-color: $main-color;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    top: 150px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    ul{
+        display: flex;
+        gap: 10px;
+        li:nth-child(1){
+            text-decoration: underline;
+        }
+    }
+>>>>>>> b665549cb1d5913634b2fc81f7e24b674029856a
 }

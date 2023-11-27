@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .card{
     border: solid 1px black;
     width: 400px;
@@ -48,3 +49,55 @@
     }
 }
 
+=======
+.card{
+    border: solid 1px black;
+    width: 400px;
+    box-shadow: 10px 5px 5px gray;
+}
+.image{
+    
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image img{
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+    transition: transform .2s;
+}
+.image img:hover{
+    transform: scale(2);
+}
+
+.music , .texts {
+    text-align: center;
+    padding: 10px;
+}
+
+.image2 img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    animation-name: theweeknd;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes theweeknd {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+>>>>>>> b665549cb1d5913634b2fc81f7e24b674029856a

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     display: flex;
     justify-content: center;
@@ -22,4 +23,30 @@ header{
     }
     
     }
+=======
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    .subdiv{
+        display: flex;
+        .info{
+            display: flex;
+            padding: 20px;
+
+            .email{
+                padding-left: 180px;
+            }
+            i{
+                background-color: $main-color;
+                padding: 12px;
+                border-radius: 50%;
+                color: white;
+            }
+    }
+    
+    }
+>>>>>>> b665549cb1d5913634b2fc81f7e24b674029856a
 }

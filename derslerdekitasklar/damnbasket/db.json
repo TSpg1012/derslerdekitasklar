@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "books": [
     {
@@ -50,3 +51,57 @@
     }
   ]
 }
+=======
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "20th Century Boys",
+      "price": "220",
+      "stock": "100",
+      "count": "1",
+      "imageurl": "https://m.media-amazon.com/images/I/71Dj6z5rrzL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Six of Crows",
+      "price": "120",
+      "stock": "50",
+      "count": "1",
+      "imageurl": "https://upload.wikimedia.org/wikipedia/en/1/10/Six_of_Crows_by_Leigh_Bardugo_book_cover.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "price": "10",
+      "stock": "150",
+      "count": "1",
+      "imageurl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404613595i/13.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Homunculus",
+      "price": "80",
+      "stock": "200",
+      "count": "1",
+      "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcFZnLiuBeIlkJb1dlBo0pIAnkWP0wvEPgnzyj79ZMChkB99ehAtFV3pQMO2XRe7U8rZY&usqp=CAU"
+    },
+    {
+      "id": "5",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "price": "10",
+      "stock": "150",
+      "count": "1",
+      "imageurl": "https://en.wikipedia.org/wiki/Watchmen#/media/File:Watchmen,_issue_1.jpg"
+    },
+    {
+      "id": "6",
+      "title": "V for vendetta",
+      "price": "10",
+      "stock": "150",
+      "count": "1",
+      "imageurl": "https://m.media-amazon.com/images/I/71f7i5dHDSL._SL1000_.jpg"
+    }
+  ]
+}
+>>>>>>> b665549cb1d5913634b2fc81f7e24b674029856a

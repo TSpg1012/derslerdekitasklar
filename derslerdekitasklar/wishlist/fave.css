@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img {
   width: 100px;
   height: 100px;
@@ -14,3 +15,21 @@ button {
   border-radius: 5px;
   background: white;
 }
+=======
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.fa-trash {
+  font-size: 1.2em;
+  color: brown;
+}
+
+button {
+  border: 1px solid brown;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+}
+>>>>>>> b665549cb1d5913634b2fc81f7e24b674029856a

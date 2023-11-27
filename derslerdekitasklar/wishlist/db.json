@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "singers": [
     {
@@ -23,3 +24,30 @@
     }
   ]
 }
+=======
+{
+  "singers": [
+    {
+      "id": 1,
+      "image": "https://cdnph.upi.com/collection/fp/upi/13662/88b34862834a02024bf56a2d85fa4a99/The-Weeknd-turns-33-a-look-back_1_1.jpg",
+      "name": "The Weeknd",
+      "country": "Abel Testafe is Canadian",
+      "genre": "R&B"
+    },
+    {
+      "id": 2,
+      "image": "https://upload.wikimedia.org/wikipedia/az/b/b3/The_Neighbourhood.jpg",
+      "name": "The Neighbourhood",
+      "country": "The Neighbourhood is American band",
+      "genre": "Indie"
+    },
+    {
+      "id": 3,
+      "image": "https://i.scdn.co/image/ab67616d00001e02344cb1f0ad668b1d372b5333",
+      "name": "Duman",
+      "country": "Duman is Turkish Band",
+      "genre": "Grunge rock"
+    }
+  ]
+}
+>>>>>>> b665549cb1d5913634b2fc81f7e24b674029856a
