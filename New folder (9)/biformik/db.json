@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Category for electronic devices and gadgets."
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "description": "Category for various types of clothing items."
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "description": "Category for different genres of books."
+    },
+    {
+      "id": 4,
+      "name": "Home & Garden",
+      "description": "Category for household and gardening products."
+    },
+    {
+      "id": 5,
+      "name": "Toys & Games",
+      "description": "Category for toys, games, and recreational items."
+    }
+  ]
+}
