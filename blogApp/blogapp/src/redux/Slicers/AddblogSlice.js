@@ -13,13 +13,21 @@ export const addblogSlice = createSlice({
       };
       console.log(obj);
       axios.post("http://localhost:3000/blogs", obj);
+      2;
     },
-    editblog: (state , action) =>{
-        
-    }
+    editblog: (state, action) => {
+      state.text = action.payload.editInput;
+      axios.patch(`http://localhost:3000/blogs/${action.payload.blogId}`, {
+        text: state.text,
+      });
+    },
+    deleteblog: (state, action) => {
+      console.log(action.payload);
+      axios.delete(`http://localhost:3000/blogs/${action.payload}`);
+    },
   },
 });
 
-export const { sendblog } = addblogSlice.actions;
+export const { sendblog, editblog, deleteblog } = addblogSlice.actions;
 
 export default addblogSlice.reducer;
