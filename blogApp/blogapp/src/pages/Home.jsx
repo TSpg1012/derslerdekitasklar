@@ -22,14 +22,12 @@ function Home() {
   };
 
   const handleEdit = () => {
-    axios
-      .patch(`http://localhost:3000/blogs/${blogId}`, { text: editInput })
-      .then((resp) => {
-        console.log("response patch: ", resp.data);
-        console.log(edit);
-        dispatch(editblog({ blogId: resp.data.id, editInput: resp.data.text }));
-        setBlogs(resp.data);
-      });
+    axios.get(`http://localhost:3000/blogs/`).then((resp) => {
+      const updatedData = resp.data;
+      console.log(updatedData);
+      setBlogs(updatedData);
+      setEdit(false);
+    });
   };
 
   const handleDelete = (idU) => {
@@ -87,22 +85,6 @@ function Home() {
             <ul>
               <li style={{ display: "flex" }} key={id}>
                 {elem.text}{" "}
-                {edit ? (
-                  ""
-                ) : (
-                  <button
-                    style={{
-                      marginRight: "10px",
-                    }}
-                    onClick={() => {
-                      setEdit(!edit);
-                      setBlogId(elem.id);
-                      console.log(elem.id);
-                    }}
-                  >
-                    edit
-                  </button>
-                )}
                 {edit && blogId == elem.id ? (
                   <div>
                     <input
@@ -123,7 +105,18 @@ function Home() {
                     <button onClick={() => setEdit(false)}>cancel</button>
                   </div>
                 ) : (
-                  ""
+                  <button
+                    style={{
+                      marginRight: "10px",
+                    }}
+                    onClick={() => {
+                      setEdit(!edit);
+                      setBlogId(elem.id);
+                      console.log(elem.id);
+                    }}
+                  >
+                    edit
+                  </button>
                 )}
                 <button
                   onClick={() => {
