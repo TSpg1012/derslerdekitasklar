@@ -42,5 +42,28 @@ var kind;
     kind["square"] = "square";
 })(kind || (kind = {}));
 class Circle {
-    *this() { }
+    constructor(radius) {
+        this.kind = kind.circle;
+        this.radius = radius;
+    }
+    getArea() {
+        var _a;
+        return Math.PI * ((_a = this.radius) !== null && _a !== void 0 ? _a : 0) ** 2;
+    }
 }
+class Square {
+    constructor(sideLength) {
+        this.kind = kind.square;
+        this.sideLength = sideLength;
+    }
+    getArea() {
+        var _a;
+        return ((_a = this.sideLength) !== null && _a !== void 0 ? _a : 0) ** 2;
+    }
+}
+const circle = new Circle(2);
+const circleArea = circle.getArea();
+const square = new Square(4);
+const squareArea = square.getArea();
+console.log(circleArea);
+console.log(squareArea);
