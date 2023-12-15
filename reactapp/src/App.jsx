@@ -10,6 +10,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 function App() {
   let [check, setCheck] = useState(true);
 
+  setCheck(false); // check = false
   return (
     <ChakraProvider>
       {check ? (
