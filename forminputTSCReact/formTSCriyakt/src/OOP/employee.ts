@@ -1,3 +1,4 @@
+
 interface IHuman {
   name: string;
   surname: string;
@@ -34,10 +35,7 @@ abstract class Human implements IHuman {
 }
 
 type skilss = string | string[];
-enum position {
-  IT = "IT",
-  HR = "HR",
-}
+
 
 interface IEmployee<Skills extends skilss> {
   salary: number;
