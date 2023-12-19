@@ -1,26 +1,22 @@
-const bodyParser = require("body-parser");
 const express = require("express");
-const app = express();
 require("dotenv").config();
 require("./config/db");
-const dbConnect = require("./config/db");
+const bodyParser = require("body-parser");
+const app = express();
+const userRouter = require("./routers/userRouter");
+
 const port = process.env.PORT || 3000;
-// let arr = [
-//   {
-//     id: 1,
-//     name: "seid",
-//   },
-//   {
-//     id: 2,
-//     name: "elvin",
-//   },
-// ];
-dbConnect();
-app.get("/", (req, res) => {
-  res.send(arr);
-});
 
 app.use(bodyParser.json());
+
+app.use("/", userRouter); // new
+
+// app.get("/", (req, res) => {
+//   //   res.send("Hello World!");
+//   //   res.send("<h1>Hello World!</h1>");
+//   res.send("<h1>Users</h1><br/><h1>Products</h1>");
+//   //   res.send(arr);
+// });
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });

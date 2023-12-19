@@ -1,5 +1,12 @@
-const getAllUser = async((req, res) => {
-  console.log("all user");
-});
+const User = require("./../models/userModel");
 
-module.exports = { getAllUser };
+const postUser = (req, res) => {
+  console.log(req.body);
+};
+
+const getAllUser = async (req, res) => {
+  let allUser = await User.find({});
+  res.send(allUser);
+};
+
+module.exports = { postUser, getAllUser };

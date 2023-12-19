@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ax",
+      "discountPercent": 20,
+      "price": 2,
+      "salePrice": 3
+    },
+    {
+      "id": 2,
+      "name": "vs",
+      "discountPercent": 30,
+      "price": 3,
+      "salePrice": 4
+    },
+    {
+      "id": 3,
+      "name": "aaa",
+      "discountPercent": 10,
+      "price": 2,
+      "salePrice": 4
+    }
+  ]
+}
