@@ -2,7 +2,8 @@ const mongoose = require("mongoose");
 
 const schema = mongoose.Schema(
   {
-    title: String,
+    name: String,
+    id: String,
   },
   { collection: "Kiviler" }
 );
