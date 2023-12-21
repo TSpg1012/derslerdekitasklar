@@ -5,7 +5,7 @@ interface IHuman {
   getInfo: () => string;
 }
 
-abstract class Human implements IHuman {
+export abstract class Human implements IHuman {
   private _name: string;
   private _surname: string;
   age: number;

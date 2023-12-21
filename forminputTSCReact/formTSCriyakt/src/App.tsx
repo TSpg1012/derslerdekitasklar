@@ -2,11 +2,9 @@ import { useState } from "react";
 import "./App.css";
 import { Student } from "./OOP/student";
 import { Employee } from "./OOP/employee";
+import { Human } from "./OOP/student";
 
-enum Position {
-  IT = "IT",
-  HR = "HR",
-}
+
 
 function App() {
   const [human, setHuman] = useState("");
@@ -19,7 +17,7 @@ function App() {
   const [salary, setSalary] = useState(0);
   const [skills, setSkills] = useState("");
   const [position, setPosition] = useState<string>("");
-  const [lit, setLit] = useState([]);
+  const [lit, setLit] = useState<Human[]>([]);
 
   return (
     <>
@@ -176,7 +174,7 @@ function App() {
                 age,
                 salary,
                 skills,
-                position
+                Position.HR
               );
               console.log(employee);
               console.log("position=", position);
