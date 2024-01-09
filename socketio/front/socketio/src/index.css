@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.left-aligned {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #86cbf5;
+  border-radius: 22px;
+  color: white;
+  max-width: fit-content;
+  float: left;
+  clear: both;
+}
+
+.right-aligned {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #5eaee1;
+  border-radius: 22px;
+  color: white;
+  max-width: fit-content;
+  float: right;
+  clear: both;
+}
